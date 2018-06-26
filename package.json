@@ -1,0 +1,22 @@
+{
+  "name": "js_face_detect_recognition_test",
+  "version": "0.1.0",
+  "description": "test for face-recognition.js",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draconian00/js_face_recognition_test.git"
+  },
+  "author": "draconian00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draconian00/js_face_recognition_test/issues"
+  },
+  "homepage": "https://github.com/draconian00/js_face_recognition_test#readme",
+  "dependencies": {
+    "face-recognition": "^0.9.3"
+  }
+}
