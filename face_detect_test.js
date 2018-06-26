@@ -1,13 +1,8 @@
-'use strict';
-
 const fr = require('face-recognition');
 const detector = fr.FaceDetector();
+const freeze = fr.hitEnterToContinue;
 
-const freeze = () => {
-  fr.hitEnterToContinue();
-}
-
-const origin_img = fr.loadImage('./images/face1.jpg');
+const origin_img = fr.loadImage('./images/face2.jpg');
 
 const win = new fr.ImageWindow();
 // display image
