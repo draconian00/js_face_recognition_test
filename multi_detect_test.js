@@ -2,7 +2,7 @@ const fr = require('face-recognition');
 const detector = fr.FaceDetector();
 const freeze = fr.hitEnterToContinue;
 
-const origin_img = fr.loadImage('./images/faces8.jpg');
+const origin_img = fr.loadImage('./images/faces9.jpg');
 
 const win = new fr.ImageWindow();
 win.setImage(origin_img);
